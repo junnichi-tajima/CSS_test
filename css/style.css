@@ -1,20 +1,51 @@
-
-.header {
-  width: 100px;
-  position: fixed;
-  color:  blue;
-  display: flex;
+img.view {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+  z-index: 50;
+  position: relative;
+  top: 10%;
 }
 
-.body {
-  height: 1200px;
-  background-color: red;
+div.main {
+  position: absolute;
+  top: 20%;
+  /* height: 1024px; */
+  /* background-color:  green; */
+}
+
+div.mainiti {
+  font-size: 64px;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+}
+
+div.block {
+  background-color: blue;
+  position: absolute;
+  width: 70%;
+  height: 40%;
+  top: 75%;
+  left: 0px;
+  z-index: 0;
+}
+
+.header {
+  color: blue;
+  width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  /* background-color: red; */
+  padding: 20px;
+  z-index: 100;
+  background-color: white;
 }
 
 .menu {
-  margin: 0 auto;
-  background-color: green;
-  justify-content: flex-end;
+  width: 512px;
   display: flex;
-  align-items: flex-end;
+  justify-content: space-between;z-index: 100;
+  background-color:  white;
 }
