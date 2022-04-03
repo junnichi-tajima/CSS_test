@@ -18,7 +18,7 @@ div.main {
 div.mainiti {
   font-size: 64px;
   position: absolute;
-  top: 50%;
+  top: 62%;
   left: 0px;
 }
 
@@ -43,11 +43,15 @@ div.block {
   background-color: white;
 }
 
-.menu {
-  width: 50%;
+ul {
+  width: 30%;
   margin: 0 0 0 auto;
   display: flex;
   justify-content: space-between;
   z-index: 100;
   /* background-color:  red; */
+}
+
+li{
+  display: inline;
 }
